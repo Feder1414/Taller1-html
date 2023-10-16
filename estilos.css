@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'upheavtt';
+  src: url('recursos/upheavtt.ttf');
+}
+
+@font-face {
+  font-family: 'teamMeat' ;
+  src: url('recursos/IsaacGame.ttf');
+}
+
+@font-face {
+  font-family: 'SilomBol';
+  src: url('recursos/SilomBol.ttf');
+}
+body {
+    background-color: lightyellow;
+}
+   h1.pepe {
+    color: rgb(173, 18, 18);
+    text-align: center;
+   }
+   
+  p.nombre {
+    color: rgb(173, 18, 18);
+    text-align: center;
+    font-size: 3em;
+    font-family: 'upheavtt';
+  }
+
+  p.descripcion{
+    font-family: 'SilomBol';
+    font-size: 2.5em;
+  }
+
+  p.descripcion a {
+    font-family: 'SilomBol';
+    font-size: 1em;
+  }
+
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  p.opciones {
+    font-family: 'upheavtt';
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .borde-negro {
+    border: 7px solid black;
+  }
+
+  .fondo-grisaceo{
+    background-color: rgba(224,209,186,255);
+  }
+
+  .fondo-marron{
+    background-color: rgba(97,57,41,255)
+  }
+
+  .borde-caja {
+    /* Ajusta estos valores según tus necesidades */
+    border: 10px solid transparent;
+    border-width: 15px;
+    padding: 15px;
+    -webkit-border-image: url('recursos/borde.png') 30 round; /* Safari 3.1-5 */
+    -o-border-image: url('recursos/borde.png') 30 round; /* Opera 11-12.1 */
+    border-image: url('recursos/borde.png') 30 round;
+  }
+
+  .fondo-beige{
+    background-color: rgba(233,219,222,255)
+  }
+
+  .borde-hoja{
+
+    border: 15px solid transparent;
+    border-width: 25px;
+    padding: 15px;
+    -webkit-border-image: url('recursos/borde-personaje.png') 30 round; /* Safari 3.1-5 */
+    -o-border-image: url('recursos/borde-personaje.png') 30 round; /* Opera 11-12.1 */
+    border-image: url('recursos/borde-personaje.png') 30 round;
+    background-color: rgba(199,178,154,255)
+
+
+  }
+
+  img.cubrir {
+    height: 5em ;
+  }
+
+  .borde-hoja-blanca {
+    position: relative;
+    padding: 15px;
+    background-color: rgba(199,178,154,255);
+}
+
+.borde-hoja-blanca::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border: 10px solid transparent;
+    border-width: 40px;
+    -webkit-border-image: url('recursos/bordeHojaBlanca.png') 30 round; /* Safari 3.1-5 */
+    -o-border-image: url('recursos/bordeHojaBlanca.png') 30 round; /* Opera 11-12.1 */
+    border-image: url('recursos/bordeHojaBlanca.png') 30 round;
+}
+
+
+
+  ul.lista-isaac{
+    list-style-type: none;
+    font-family: 'upheavtt';
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(233,219,222,255);
+    
+  }
+
+
+
+.fondo-hoja-blanca{
+  background-color: rgba(233,219,222,255)
+}
+
+
+form.form-isaac{
+  list-style-type: none;
+  font-family: 'upheavtt';
+  font-size: 1,5em;
+  text-align: center;
+  
+  
+}
+
+form.form-isaac input{
+  font-family: 'SilomBol';
+  font-size: 1em;
+  text-align: center;
+  
+  
+}
